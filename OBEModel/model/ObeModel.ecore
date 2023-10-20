@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="ObeModel" nsURI="http://www.example.org/ObeModel" nsPrefix="ObeModel">
+  <eAnnotations source="http://www.eclipse.org/OCL/Import">
+    <details key="ecore" value="http://www.eclipse.org/emf/2002/Ecore"/>
+  </eAnnotations>
+  <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+    <details key="invocationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+    <details key="settingDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+    <details key="validationDelegates" value="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot"/>
+  </eAnnotations>
+  <eClassifiers xsi:type="ecore:EEnum" name="LearningDomain">
+    <eLiterals name="Cognitive"/>
+    <eLiterals name="Affective" value="1"/>
+    <eLiterals name="Physcomotor" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ActivityType">
+    <eLiterals name="Quiz"/>
+    <eLiterals name="Assignment" value="1"/>
+    <eLiterals name="Mid" value="2"/>
+    <eLiterals name="Finals" value="3"/>
+    <eLiterals name="Lab" value="4"/>
+    <eLiterals name="Surveys" value="5"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="AssesmentType">
+    <eLiterals name="Direct"/>
+    <eLiterals name="Indirect" value="1"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="InstituteLevel">
+    <eLiterals name="University"/>
+    <eLiterals name="Faculty" value="1"/>
+    <eLiterals name="Department" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OBERootNode">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="institutes" upperBound="-1"
+        eType="#//Institute" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="visions" upperBound="-1"
+        eType="#//Vision" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="missions" upperBound="-1"
+        eType="#//Mission" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="peos" upperBound="-1" eType="#//PEO"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="courses" upperBound="-1"
+        eType="#//Courses" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="batches" upperBound="-1"
+        eType="#//Batches" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="programs" upperBound="-1"
+        eType="#//Program" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="plos" upperBound="-1" eType="#//Plo"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="students" upperBound="-1"
+        eType="#//Student" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="activitties" upperBound="-1"
+        eType="#//Activity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="clos" upperBound="-1" eType="#//CLO"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="learninglevels" upperBound="-1"
+        eType="#//LearningLevels" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="results" upperBound="-1"
+        eType="#//Results" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Institute">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="parentInsitutionCheck VisionCanBeAssignedOnlyToInstitutionLevelUniversity OnlyDepartmentCanOfferPrograms"/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+      <details key="parentInsitutionCheck" value="&#xA;&#x9;&#x9;  if self.InstituteLevel = InstituteLevel::University then&#xA;&#x9;&#x9;    self.parentInstitute = null&#xA;&#x9;&#x9;  else&#xA;&#x9;&#x9;    if self.InstituteLevel = InstituteLevel::Department then&#xA;&#x9;&#x9;      self.parentInstitute.InstituteLevel = InstituteLevel::Faculty&#xA;&#x9;&#x9;    else&#xA;&#x9;&#x9;       self.parentInstitute.InstituteLevel = InstituteLevel::University&#xA;&#x9;&#x9;    endif&#xA;&#x9;&#x9;  endif"/>
+      <details key="VisionCanBeAssignedOnlyToInstitutionLevelUniversity" value="&#xA;&#x9;&#x9;  if self.InstituteLevel = InstituteLevel::University then&#xA;&#x9;&#x9;    self.associatedvision &lt;> null&#xA;&#x9;&#x9;  else&#xA;&#x9;&#x9;    self.associatedvision = null&#xA;&#x9;&#x9;  endif"/>
+      <details key="OnlyDepartmentCanOfferPrograms" value="&#xA;&#x9;&#x9;  if self.InstituteLevel = InstituteLevel::Department then&#xA;&#x9;&#x9;    self.Offerprograms->notEmpty()&#xA;&#x9;&#x9;  else&#xA;&#x9;&#x9;    self.Offerprograms->isEmpty()&#xA;&#x9;&#x9;  endif"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="InstituteLevel" eType="#//InstituteLevel"
+        defaultValueLiteral="University"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="associatedvision" eType="#//Vision"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Offerprograms" upperBound="-1"
+        eType="#//Program"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parentInstitute" eType="#//Institute"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="associatedmission" eType="#//Mission"
+        eOpposite="#//Mission/institute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Vision">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="VisionStatement" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Mission">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="MissionStatement" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="institute" eType="#//Institute"
+        eOpposite="#//Institute/associatedmission"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="assesment" eType="#//Assesment"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Program">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="programobjectives" lowerBound="1"
+        upperBound="-1" eType="#//PEO"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="programlearningoutcomes"
+        lowerBound="1" upperBound="-1" eType="#//Plo"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="associatedbatches" lowerBound="1"
+        upperBound="-1" eType="#//Batches"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="offeredcourses" lowerBound="1"
+        upperBound="-1" eType="#//Courses"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PEO">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="PEOCanBeMappedToOnlyMissionInstanceofDepartment"/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+      <details key="PEOCanBeMappedToOnlyMissionInstanceofDepartment" value="&#xA;  &#x9;&#x9;self.mission.institute.InstituteLevel = InstituteLevel::Department"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="PEOStatement" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="threshold" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mission" lowerBound="1"
+        eType="#//Mission"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="plos" lowerBound="1" upperBound="-1"
+        eType="#//Plo" eOpposite="#//Plo/peo"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Title" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="assesment" eType="#//Assesment"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Plo">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Title" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="closMapping" upperBound="-1"
+        eType="#//CLO" eOpposite="#//CLO/maptoplo"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="peo" lowerBound="1" eType="#//PEO"
+        eOpposite="#//PEO/plos"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Courses">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="learningoutcomes" lowerBound="1"
+        upperBound="-1" eType="#//CLO"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="activities" lowerBound="1"
+        upperBound="-1" eType="#//Activity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Batches">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="IndvThreshold" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" defaultValueLiteral="50"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ChortLevelThreshold" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt" defaultValueLiteral="60"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="students" lowerBound="1"
+        upperBound="-1" eType="#//Student" eOpposite="#//Student/batche"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Student">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="RollNumber" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="batche" lowerBound="1"
+        eType="#//Batches" eOpposite="#//Batches/students"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="registercourse" upperBound="-1"
+        eType="#//Courses"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="results" upperBound="-1"
+        eType="#//Results" eOpposite="#//Results/student"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CLO">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Statement" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="learninglevels" lowerBound="1"
+        eType="#//LearningLevels" eOpposite="#//LearningLevels/clo"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="activity" lowerBound="1"
+        upperBound="-1" eType="#//Activity" eOpposite="#//Activity/clo"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="maptoplo" lowerBound="1"
+        eType="#//Plo" eOpposite="#//Plo/closMapping"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LearningLevels">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Level" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="domain" eType="#//LearningDomain"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="clo" upperBound="-1" eType="#//CLO"
+        eOpposite="#//CLO/learninglevels"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Activity">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore">
+      <details key="constraints" value="OnlyDirectAssesmentCanHaveCLO"/>
+    </eAnnotations>
+    <eAnnotations source="http://www.eclipse.org/emf/2002/Ecore/OCL/Pivot">
+      <details key="OnlyDirectAssesmentCanHaveCLO" value="&#xA;&#x9;&#x9;  if self.AssesmentType = AssesmentType::Direct then&#xA;&#x9;&#x9;    self.clo->notEmpty() and self.clo->size() = 1&#xA;&#x9;&#x9;  else&#xA;&#x9;&#x9;    self.clo->isEmpty()&#xA;&#x9;&#x9;  endif"/>
+    </eAnnotations>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="totalMarks" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="AssesmentType" eType="#//AssesmentType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ActivityType" eType="#//ActivityType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="clo" eType="#//CLO" eOpposite="#//CLO/activity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="results" upperBound="-1"
+        eType="#//Results" eOpposite="#//Results/activity"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="activityWeight" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Results">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="obtainedMarks" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="student" lowerBound="1"
+        eType="#//Student" eOpposite="#//Student/results"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="activity" lowerBound="1"
+        eType="#//Activity" eOpposite="#//Activity/results"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Assesment">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="AssesmentType" eType="#//AssesmentType"
+        defaultValueLiteral="Indirect"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ActivityType" eType="#//ActivityType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="RespondantName" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Marks" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+</ecore:EPackage>

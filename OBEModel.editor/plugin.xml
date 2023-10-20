@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated ObeModel -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="ObeModel.presentation.ObeModelModelWizardID"
+            name="%_UI_ObeModelModelWizard_label"
+            class="ObeModel.presentation.ObeModelModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/ObeModelModelFile.gif">
+         <description>%_UI_ObeModelModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated ObeModel -->
+      <editor
+            id="ObeModel.presentation.ObeModelEditorID"
+            name="%_UI_ObeModelEditor_label"
+            icon="icons/full/obj16/ObeModelModelFile.gif"
+            extensions="obemodel"
+            class="ObeModel.presentation.ObeModelEditor"
+            contributorClass="ObeModel.presentation.ObeModelActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

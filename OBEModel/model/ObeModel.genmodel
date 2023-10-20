@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/OBEModel/src-gen" creationIcons="false" editDirectory="/OBEModel.edit/src-gen"
+    editorDirectory="/OBEModel.editor/src-gen" modelPluginID="OBEModel" modelName="ObeModel"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>ObeModel.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="ObeModel" disposableProviderFactory="true" ecorePackage="ObeModel.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="ObeModel.ecore#//LearningDomain">
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//LearningDomain/Cognitive"/>
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//LearningDomain/Affective"/>
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//LearningDomain/Physcomotor"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="ObeModel.ecore#//ActivityType">
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//ActivityType/Quiz"/>
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//ActivityType/Assignment"/>
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//ActivityType/Mid"/>
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//ActivityType/Finals"/>
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//ActivityType/Lab"/>
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//ActivityType/Surveys"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="ObeModel.ecore#//AssesmentType">
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//AssesmentType/Direct"/>
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//AssesmentType/Indirect"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="ObeModel.ecore#//InstituteLevel">
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//InstituteLevel/University"/>
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//InstituteLevel/Faculty"/>
+      <genEnumLiterals ecoreEnumLiteral="ObeModel.ecore#//InstituteLevel/Department"/>
+    </genEnums>
+    <genClasses ecoreClass="ObeModel.ecore#//OBERootNode">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ObeModel.ecore#//OBERootNode/institutes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ObeModel.ecore#//OBERootNode/visions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ObeModel.ecore#//OBERootNode/missions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ObeModel.ecore#//OBERootNode/peos"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ObeModel.ecore#//OBERootNode/courses"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ObeModel.ecore#//OBERootNode/batches"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ObeModel.ecore#//OBERootNode/programs"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ObeModel.ecore#//OBERootNode/plos"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ObeModel.ecore#//OBERootNode/students"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ObeModel.ecore#//OBERootNode/activitties"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ObeModel.ecore#//OBERootNode/clos"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ObeModel.ecore#//OBERootNode/learninglevels"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ObeModel.ecore#//OBERootNode/results"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//Institute">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Institute/Name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Institute/InstituteLevel"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Institute/associatedvision"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Institute/Offerprograms"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Institute/parentInstitute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Institute/associatedmission"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//Vision">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Vision/VisionStatement"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//Mission">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Mission/MissionStatement"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Mission/institute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Mission/assesment"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//Program">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Program/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Program/programobjectives"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Program/programlearningoutcomes"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Program/associatedbatches"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Program/offeredcourses"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//PEO">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//PEO/PEOStatement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//PEO/threshold"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//PEO/mission"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//PEO/plos"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//PEO/Title"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//PEO/assesment"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//Plo">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Plo/Title"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Plo/closMapping"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Plo/peo"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//Courses">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Courses/Name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Courses/learningoutcomes"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Courses/activities"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//Batches">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Batches/Name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Batches/IndvThreshold"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Batches/ChortLevelThreshold"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Batches/students"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//Student">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Student/RollNumber"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Student/Name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Student/batche"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Student/registercourse"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Student/results"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//CLO">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//CLO/Statement"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//CLO/learninglevels"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//CLO/activity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//CLO/maptoplo"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//LearningLevels">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//LearningLevels/Level"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//LearningLevels/domain"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//LearningLevels/clo"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//Activity">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Activity/Name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Activity/totalMarks"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Activity/AssesmentType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Activity/ActivityType"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Activity/clo"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Activity/results"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Activity/activityWeight"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//Results">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Results/obtainedMarks"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Results/student"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ObeModel.ecore#//Results/activity"/>
+    </genClasses>
+    <genClasses ecoreClass="ObeModel.ecore#//Assesment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Assesment/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Assesment/AssesmentType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Assesment/ActivityType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Assesment/RespondantName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ObeModel.ecore#//Assesment/Marks"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
