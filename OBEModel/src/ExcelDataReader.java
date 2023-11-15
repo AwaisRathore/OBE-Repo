@@ -40,9 +40,10 @@ public class ExcelDataReader {
 		// Iterate through rows starting from the second row (index 1)
         for (int i = 7; i < sheet.getPhysicalNumberOfRows(); i++) {
             Row row = sheet.getRow(i);
+           // System.out.print(row.getCell(1).getStringCellValue());
            // Assuming Student name is in the second column (index 1)
             String studentName = row.getCell(1).getStringCellValue();
-            studentNames.add(studentName);
+            studentNames.add(studentName.trim());
         }
 		return studentNames;
 	}

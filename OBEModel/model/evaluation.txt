@@ -1,0 +1,3184 @@
+Name: University of X
+Institute Level: University
+Vision: Transformation to excellence through holistic education.
+Mission: The University is committed to quality education, research and values-driven mentorship through innovations to serve the society and the changing world.
+-------------------------------------------------------------------------------------
+Name: Faculty of Engineering
+Institute Level: Faculty
+Parent: University of X
+Mission: Faculty Mission
+-------------------------------------------------------------------------------------
+Name: Department of Software Engineering
+Institute Level: Department
+Parent: Faculty of Engineering
+Mission: To prepare graduates to have concrete software engineering knowledge, real-world problem-solving skills, excellent leadership qualities, and entrepreneurial abilities for their professional growth and service to society.
+
+Offered Program: Bsc Software Engineering
+
+------------------Program Educational Objectives------------------
+
+PEO 1
+Statement: Apply sound engineering knowledge and skills to design, analyze and investigate a problem for appropriate solutions.
+Passing Threshold: 50
+
+PEO 2
+Statement: Exhibit professionally sound character, having leadership qualities, adaptability in a team, and entrepreneurial skills.
+Passing Threshold: 60
+
+PEO 3
+Statement: Demonstrate devotion through ethical engineering practices and effective communication skills to serve the society
+Passing Threshold: 70
+
+------------------Program Learning Outcomes------------------
+	Engineering Knowledge
+	Problem Analysis
+	Design / Development of Solutions
+	Investigation
+	Modern Tool Usage
+	The Engineer and Society
+	Environment and Sustainability
+	Ethics
+	Individual and Teamwork
+	Communication
+	Project Management
+	Lifelong Learning
+
+------------------PLO - PEO Mappings ------------------
+	Engineering Knowledge : PEO 1
+	Problem Analysis : PEO 2
+	Design / Development of Solutions : PEO 1
+	Investigation : PEO 1
+	Modern Tool Usage : PEO 1
+	The Engineer and Society : PEO 3
+	Environment and Sustainability : PEO 2
+	Ethics : PEO 3
+	Individual and Teamwork : PEO 2
+	Communication : PEO 3
+	Project Management : PEO 2
+	Lifelong Learning : PEO 1
+
+------------------Courses Offered ------------------
+	 Course Name : Programming
+	 CLO : Understand basic programming principles and logic constructs
+	 Learning Domain : Cognitive
+	 Learning Level : C2 - Comprehension
+	 Mapped to PLO : Engineering Knowledge
+
+
+	 CLO : Apply programming techniques to solve various problems
+	 Learning Domain : Cognitive
+	 Learning Level : C3 - Application
+	 Mapped to PLO : Design / Development of Solutions
+
+
+	 CLO : Design and implement algorithm's to solve real world problems
+	 Learning Domain : Cognitive
+	 Learning Level : C5-Synthesis
+	 Mapped to PLO : Design / Development of Solutions
+
+
+
+------------------ Batches In Program ------------------
+	 Batch : 2019-2023
+	 Indviduval Level Threshold : 50
+	 Cohort Level Threshold : 60
+
+------------------ Students ------------------
+	 Name : Student1
+	 Roll Number : 1
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 6.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 7.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 5.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 12.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 56.669000000000004%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 62.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 80.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 68.3345%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 62.0%
+********************************************************************** 
+	 Name : Student2
+	 Roll Number : 4
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 4.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 12.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 6.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 12.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 75.556%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 67.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 80.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 73.05625%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 64.5%
+********************************************************************** 
+	 Name : Student3
+	 Roll Number : 6
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 4.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 0.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 0.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 0.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Failed
+		Achiceved CLO % 0.0%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Failed
+		Achiceved CLO % 8.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Failed
+		Achiceved CLO % 0.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Failed
+		Achieved PLO % 48.704166666666666%
+		PLO : Engineering Knowledge
+		PLO Status : Failed
+		Achieved PLO % 45.66666666666667%
+********************************************************************** 
+	 Name : Student4
+	 Roll Number : 7
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 4.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 10.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 6.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 10.5 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 18.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 57.77899999999999%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 56.00000000000001%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 72.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 52.7505%
+		PLO : Engineering Knowledge
+		PLO Status : Failed
+		Achieved PLO % 48.25000000000001%
+********************************************************************** 
+	 Name : Student5
+	 Roll Number : 8
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 4.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 5.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 3.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 13.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 54.44766666666666%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 53.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 80.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 55.645166666666654%
+		PLO : Engineering Knowledge
+		PLO Status : Failed
+		Achieved PLO % 49.2%
+********************************************************************** 
+	 Name : Student6
+	 Roll Number : 9
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 6.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 2.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 5.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 3.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 12.5 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 18.5 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 68.89033333333333%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Failed
+		Achiceved CLO % 47.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 74.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 58.2785%
+		PLO : Engineering Knowledge
+		PLO Status : Failed
+		Achieved PLO % 48.83333333333333%
+********************************************************************** 
+	 Name : Student7
+	 Roll Number : 10
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 2.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 7.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 4.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 9.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 18.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Failed
+		Achiceved CLO % 45.557%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 51.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 72.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 58.34992857142856%
+		PLO : Engineering Knowledge
+		PLO Status : Failed
+		Achieved PLO % 49.14285714285714%
+********************************************************************** 
+	 Name : Student8
+	 Roll Number : 11
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 4.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 7.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 6.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 11.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 21.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 72.22233333333332%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 51.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 84.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 60.82008333333333%
+		PLO : Engineering Knowledge
+		PLO Status : Failed
+		Achieved PLO % 49.37499999999999%
+********************************************************************** 
+	 Name : Student9
+	 Roll Number : 12
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 6.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 6.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 10.5 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.5 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 52.224000000000004%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 53.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 82.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 61.51918518518519%
+		PLO : Engineering Knowledge
+		PLO Status : Failed
+		Achieved PLO % 49.77777777777777%
+********************************************************************** 
+	 Name : Student10
+	 Roll Number : 13
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 6.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 4.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 11.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 10.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 18.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 60.00066666666667%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 60.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 72.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 61.9673%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 50.79999999999999%
+********************************************************************** 
+	 Name : Student11
+	 Roll Number : 14
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 5.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 12.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 19.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 55.55800000000001%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 52.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 76.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 62.31381818181819%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 50.90909090909091%
+********************************************************************** 
+	 Name : Student12
+	 Roll Number : 15
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 8.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 12.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 56.66899999999999%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 56.00000000000001%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 80.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 62.815541666666675%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 51.33333333333333%
+********************************************************************** 
+	 Name : Student13
+	 Roll Number : 16
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 6.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 15.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 10.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 14.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 23.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 73.33533333333334%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 78.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 92.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 64.34262820512822%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 53.38461538461539%
+********************************************************************** 
+	 Name : Student14
+	 Roll Number : 17
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 10.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 6.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 11.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 19.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 56.66833333333333%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 61.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 76.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 64.48488095238096%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 53.92857142857144%
+********************************************************************** 
+	 Name : Student15
+	 Roll Number : 18
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 3.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 10.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 9.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 19.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 50.001%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 61.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 76.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 64.38592222222223%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 54.400000000000006%
+********************************************************************** 
+	 Name : Student16
+	 Roll Number : 19
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 12.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 5.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 9.5 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 18.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 55.55633333333333%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 61.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 72.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 64.3479375%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 54.8125%
+********************************************************************** 
+	 Name : Student17
+	 Roll Number : 20
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 6.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 3.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 6.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 10.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 18.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 56.66766666666667%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Failed
+		Achiceved CLO % 49.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 72.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 64.34710784313725%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 54.470588235294116%
+********************************************************************** 
+	 Name : Student18
+	 Roll Number : 21
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 4.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 6.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 10.5 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 71.11099999999999%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Failed
+		Achiceved CLO % 46.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 80.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 64.9697962962963%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 54.0%
+********************************************************************** 
+	 Name : Student19
+	 Roll Number : 22
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 2.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 12.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 13.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 21.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 65.55766666666666%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 61.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 84.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 65.48606140350877%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 54.368421052631575%
+********************************************************************** 
+	 Name : Student20
+	 Roll Number : 23
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 11.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 6.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 11.5 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 22.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 75.55566666666667%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 73.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 88.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 66.30065%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.300000000000004%
+********************************************************************** 
+	 Name : Student21
+	 Roll Number : 24
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 6.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 6.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 12.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 58.89099999999999%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Failed
+		Achiceved CLO % 42.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 80.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 66.45040476190476%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 54.666666666666664%
+********************************************************************** 
+	 Name : Student22
+	 Roll Number : 25
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 5.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 5.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 10.5 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 60.00099999999999%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 51.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 80.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 66.61177272727274%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 54.50000000000001%
+********************************************************************** 
+	 Name : Student23
+	 Roll Number : 26
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 5.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 10.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 5.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 7.5 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 19.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Failed
+		Achiceved CLO % 28.891%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 62.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 76.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 65.99584782608696%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 54.826086956521735%
+********************************************************************** 
+	 Name : Student24
+	 Roll Number : 27
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 4.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 11.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 10.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 13.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 66.66866666666667%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 62.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 80.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 66.30161805555556%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.12499999999999%
+********************************************************************** 
+	 Name : Student25
+	 Roll Number : 28
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 10.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 10.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 8.5 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 21.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 58.888666666666666%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 65.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 84.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 66.50732666666669%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.51999999999999%
+********************************************************************** 
+	 Name : Student26
+	 Roll Number : 29
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 3.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 8.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 12.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Failed
+		Achiceved CLO % 37.782000000000004%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 54.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 80.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 66.21439102564104%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.46153846153845%
+********************************************************************** 
+	 Name : Student27
+	 Roll Number : 30
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 10.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 6.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 10.5 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 18.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 70.0%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 61.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 72.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 66.39163580246915%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.66666666666665%
+********************************************************************** 
+	 Name : Student28
+	 Roll Number : 31
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 3.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 10.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 12.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 63.334999999999994%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 59.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 80.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 66.58005952380954%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.78571428571427%
+********************************************************************** 
+	 Name : Student29
+	 Roll Number : 32
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 6.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 4.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 10.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 0.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 0.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Failed
+		Achiceved CLO % 32.218999999999994%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Failed
+		Achiceved CLO % 41.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Failed
+		Achiceved CLO % 0.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 64.83969540229886%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.27586206896551%
+********************************************************************** 
+	 Name : Student30
+	 Roll Number : 33
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 3.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 4.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 4.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 12.5 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 21.5 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 55.55833333333333%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Failed
+		Achiceved CLO % 46.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 86.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 65.03767777777779%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 54.96666666666666%
+********************************************************************** 
+	 Name : Student31
+	 Roll Number : 34
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 4.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 8.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 12.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 18.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 54.447%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 60.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 72.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 64.97915591397849%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.12903225806451%
+********************************************************************** 
+	 Name : Student32
+	 Roll Number : 35
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 3.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 12.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 6.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 9.5 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 18.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Failed
+		Achiceved CLO % 46.66833333333334%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 65.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 72.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 64.80275%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.43749999999999%
+********************************************************************** 
+	 Name : Student33
+	 Roll Number : 36
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 8.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 11.5 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 18.5 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 64.44566666666667%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 65.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 74.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 64.93669191919193%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.72727272727271%
+********************************************************************** 
+	 Name : Student34
+	 Roll Number : 37
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 6.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 6.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 9.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 12.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 55.55800000000001%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 56.99999999999999%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 80.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 65.02028921568628%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.76470588235294%
+********************************************************************** 
+	 Name : Student35
+	 Roll Number : 38
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 10.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 10.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 9.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 21.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 60.0%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 72.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 84.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 65.21970952380953%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 56.22857142857141%
+********************************************************************** 
+	 Name : Student36
+	 Roll Number : 39
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 5.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 10.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 18.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 56.66766666666667%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Failed
+		Achiceved CLO % 42.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 72.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 65.19510185185186%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.83333333333332%
+********************************************************************** 
+	 Name : Student37
+	 Roll Number : 40
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 2.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 10.5 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 13.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 19.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Passed
+		Achiceved CLO % 67.77966666666667%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 57.99999999999999%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 76.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 65.37604054054054%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.89189189189187%
+********************************************************************** 
+	 Name : Student38
+	 Roll Number : 41
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 2.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 5.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 6.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 3.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 10.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Failed
+		Achiceved CLO % 44.446666666666665%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Failed
+		Achiceved CLO % 47.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 80.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 65.2930745614035%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.657894736842096%
+********************************************************************** 
+	 Name : Student39
+	 Roll Number : 42
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 3.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 11.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 9.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 5.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 11.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 18.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Failed
+		Achiceved CLO % 35.559333333333335%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 61.0%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 72.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 64.99785897435896%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.79487179487178%
+********************************************************************** 
+	 Name : Student40
+	 Roll Number : 43
+	 Course Name : Programming
+	 Activity Name : A1
+	 Activity Type : Assignment
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 6.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : Q1
+	 Activity Type : Quiz
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 5.5 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : MidQ1Q3
+	 Activity Type : Mid
+	 Weight : 40.0
+	 AssesmentType : Direct
+Marks : 9.0 / 20
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : TerminalQ1
+	 Activity Type : Finals
+	 Weight : 20.0
+	 AssesmentType : Direct
+Marks : 8.0 / 10
+CLO Mapping : Understand basic programming principles and logic constructs
+	 Activity Name : A2
+	 Activity Type : Assignment
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 7.5 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : MidQ2
+	 Activity Type : Mid
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 4.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Q2
+	 Activity Type : Quiz
+	 Weight : 22.22
+	 AssesmentType : Direct
+Marks : 0.0 / 10
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q2
+	 Activity Type : Finals
+	 Weight : 33.34
+	 AssesmentType : Direct
+Marks : 8.0 / 15
+CLO Mapping : Apply programming techniques to solve various problems
+	 Activity Name : Terminal Q3
+	 Activity Type : Finals
+	 Weight : 100.0
+	 AssesmentType : Direct
+Marks : 20.0 / 25
+CLO Mapping : Design and implement algorithm's to solve real world problems
+
+ ----OBE Result----
+		CLO : Apply programming techniques to solve various problems
+		CLO Status : Failed
+		Achiceved CLO % 43.33433333333333%
+		CLO : Understand basic programming principles and logic constructs
+		CLO Status : Passed
+		Achiceved CLO % 56.99999999999999%
+		CLO : Design and implement algorithm's to solve real world problems
+		CLO Status : Passed
+		Achiceved CLO % 80.0%
+
+ ----OBE Result----
+		PLO : Design / Development of Solutions
+		PLO Status : Passed
+		Achieved PLO % 64.91459166666665%
+		PLO : Engineering Knowledge
+		PLO Status : Passed
+		Achieved PLO % 55.82499999999999%
+********************************************************************** 
+
+ ----CHORT LEVEL CLO REPORT----
+CLO: Apply programming techniques to solve various problems
+		Total Students: 40
+		Number of Students above Threshold: 31
+		Percentage of Student who pass CLO : 77.5
+		 CLO Achieved at chort level :  YES
+CLO: Understand basic programming principles and logic constructs
+		Total Students: 40
+		Number of Students above Threshold: 31
+		Percentage of Student who pass CLO : 77.5
+		 CLO Achieved at chort level :  YES
+CLO: Design and implement algorithm's to solve real world problems
+		Total Students: 40
+		Number of Students above Threshold: 38
+		Percentage of Student who pass CLO : 95.0
+		 CLO Achieved at chort level :  YES
+-------------------------------------------------------------------------------------
